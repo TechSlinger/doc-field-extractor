@@ -22,7 +22,7 @@ conda create -n qwen-local-ocr python=3.10
 conda activate qwen-local-ocr
 pip install -r requirements.txt
 
-▶ How to Run
+How to Run
  Start the Flask Server
 python app.py
  This will start the server at http://127.0.0.1:5000/.
@@ -79,7 +79,7 @@ json
 
 {
   "match": true,
-  "message": "✅ Les documents appartiennent à la même personne.",
+  "message": " Les documents appartiennent à la même personne.",
   "combined_data": { ... }
 }
 If documents don't match:
@@ -88,5 +88,5 @@ json
 
 {
   "match": false,
-  "message": "❌ Les documents ne correspondent pas."
+  "message": " Les documents ne correspondent pas."
 }
